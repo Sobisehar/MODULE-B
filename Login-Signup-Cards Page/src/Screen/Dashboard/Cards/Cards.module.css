@@ -1,0 +1,19 @@
+.cardBtn{
+  min-width: 25%;
+  width: 10%;
+  height: 39px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+  font-weight: 600;
+  /* margin-top: 3%; */
+  /* margin-right: 10%; */
+}
+
+.cardBtn:hover{
+  background-color: gray;
+}
