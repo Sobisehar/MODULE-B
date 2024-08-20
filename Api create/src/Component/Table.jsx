@@ -50,16 +50,14 @@ export default function Tables({ data }) {
     <TableContainer
       component={Paper}
       sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 3,
         backgroundImage:
           "url(https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-ppt-cover-simple-geometry-image_793682.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+      <Table
+        sx={{ minWidth: 700, width: "100%" }}
+        aria-label="customized table">
         <TableHead>
           <TableRow>
             <StyledTableCell>ID</StyledTableCell>
