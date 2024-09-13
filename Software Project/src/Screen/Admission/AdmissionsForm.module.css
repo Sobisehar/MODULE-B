@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 600px; 
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  color: #19969e;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box; 
+  margin: auto; 
+}
+
+.wrapper h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 15px 0; 
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 15px;
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox input[type="date"]::placeholder {
+  color: grey; 
+}
+
+
+.inputBox label {
+  display: block;
+  margin-bottom: 6px;
+  margin-left: 5px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxGroup label {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: #19969e;
+}
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: #19969e;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background-color: #19969e;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 18px; 
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s;
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px);
+}
+
+.registerLink {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .wrapper h1 {
+    font-size: 24px;
+  }
+
+  .wrapper .inputBox {
+    margin: 10px 0;
+  }
+
+  .inputBox input {
+    font-size: 14px;
+  }
+
+  .wrapper .btn {
+    font-size: 16px;
+  }
+
+  .registerLink {
+    font-size: 12px;
+  }
+}

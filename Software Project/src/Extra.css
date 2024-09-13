@@ -1,0 +1,1389 @@
+/*        Class Admission form css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  color: #19969e;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+/* .checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} */
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; /* Align radio buttons and labels vertically */
+ /* Space between radio button groups */
+  /* margin-top: 10px; */
+}
+
+.checkboxGroup label {
+  display: flex; /* Use flex to align items in a row */
+  align-items: center; /* Align radio button and label vertically centered */
+  color: black;
+
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px; /* Adjust width for size */
+  height: 18px; /* Adjust height for size */
+  margin-right: 10px; /* Space between radio button and label */
+  cursor: pointer; /* Add pointer cursor on hover */
+  /* color: black; */
+}
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: #19969e; /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: #19969e;
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: #19969e; /* Change radio button color when checked */
+}
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  background-color: #19969e;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                  subject Registration css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  /* color: #19969e; */
+  color: rgb(119, 119, 231);
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+  color: black;
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} 
+
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: rgb(119, 119, 231); /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: rgb(119, 119, 231);
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: rgb(119, 119, 231); /* Change radio button color when checked */
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  /* background-color: #19969e; */
+  background-color: rgb(64, 64, 235);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                  syllabus registration css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  /* color: #19969e; */
+  color: rgb(119, 119, 231);
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+  color: black;
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} 
+
+
+
+
+
+
+
+
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: rgb(119, 119, 231); /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: rgb(119, 119, 231);
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: rgb(119, 119, 231); /* Change radio button color when checked */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  /* background-color: #19969e; */
+  background-color: rgba(64, 64, 235, 0.897);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .btn1 {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  /* background-color: #19969e; */
+  background-color: rgba(64, 64, 235, 0.897);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  margin-top: 30px;
+}
+
+.wrapper .btn1:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 15px;
+  }
+
+  .wrapper h1 {
+    font-size: 24px;
+  }
+
+  .inputBox input {
+    font-size: 14px;
+  }
+
+  .wrapper .btn {
+    font-size: 16px;
+  }
+
+  .wrapper .registerLink {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*              school/ students/ schoolregistrtion css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  color: #19969e;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+/* .checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} */
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; /* Align radio buttons and labels vertically */
+ /* Space between radio button groups */
+  /* margin-top: 10px; */
+}
+
+.checkboxGroup label {
+  display: flex; /* Use flex to align items in a row */
+  align-items: center; /* Align radio button and label vertically centered */
+  color: black;
+
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px; /* Adjust width for size */
+  height: 18px; /* Adjust height for size */
+  margin-right: 10px; /* Space between radio button and label */
+  cursor: pointer; /* Add pointer cursor on hover */
+  /* color: black; */
+}
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: #19969e; /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: #19969e;
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: #19969e; /* Change radio button color when checked */
+}
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  background-color: #19969e;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                      Students css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  color: #19969e;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+/* .checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} */
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; /* Align radio buttons and labels vertically */
+ /* Space between radio button groups */
+  /* margin-top: 10px; */
+}
+
+.checkboxGroup label {
+  display: flex; /* Use flex to align items in a row */
+  align-items: center; /* Align radio button and label vertically centered */
+  color: black;
+
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px; /* Adjust width for size */
+  height: 18px; /* Adjust height for size */
+  margin-right: 10px; /* Space between radio button and label */
+  cursor: pointer; /* Add pointer cursor on hover */
+  /* color: black; */
+}
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: #19969e; /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: #19969e;
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: #19969e; /* Change radio button color when checked */
+}
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  background-color: #19969e;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*             teacher Registration */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  /* color: #19969e; */
+  color: tomato;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+  color: black;
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} 
+
+
+
+
+
+
+
+
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: tomato; /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: tomato;
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: tomato; /* Change radio button color when checked */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  /* background-color: #19969e; */
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                  school/ teacher/ teacher registration  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(151, 146, 68); */
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-width: 500px;
+  /* width: 50%; */
+  /* background-color: transparent; 
+  backdrop-filter: blur(20px); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: white;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  /* color: #fff; */
+  /* color: #19969e; */
+  color: tomato;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 30px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .inputBox {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 45px;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  border: 1px solid  grey;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  padding: 0 20px; /* Changed padding to balance alignment */
+}
+
+.inputBox input::placeholder {
+  color: grey;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-direction: column; 
+  color: black;
+}
+
+.checkboxGroup label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.checkboxGroup input[type="radio"] {
+  width: 18px;   
+  height: 18px;  
+  margin-right: 8px; 
+  cursor: pointer; 
+} 
+
+
+
+
+
+
+
+
+
+.checkboxGroup label:hover,
+.checkboxGroup label:hover input[type="radio"] {
+  color: tomato; /* Change label color on hover */
+}
+
+.checkboxGroup input[type="radio"]:hover{
+  accent-color: tomato;
+}
+
+
+.checkboxGroup input[type="radio"]:checked {
+  accent-color: tomato; /* Change radio button color when checked */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  /* background-color: rgba(231, 227, 169, 0.674); */
+  /* background-color: #19969e; */
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 19px;
+  /* color: rgb(151, 146, 68); */
+  color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.wrapper .btn:hover {
+  transform: translateY(-3px); /* Hover effect to move button up */
+}
+
+.wrapper .registerLink {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registerLink p {
+  letter-spacing: 1px;
+}
+
+.registerLink p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+  min-width: 300px; /* Adjusted for smaller screens */
+  width: 90%; /* Make it responsive */
+  max-width: 600px; /* Limit maximum width */
+  background-color: white;
+  color: rgb(119, 119, 231);
+  border-radius: 10px;
+  padding: 20px; /* Adjusted padding for smaller screens */
+  /* margin-top: 10%; */
+}
